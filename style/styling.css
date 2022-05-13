@@ -5,6 +5,10 @@ body{
     font-family: 'open sans';
     src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+@font-face {
+    font-family: 'playfair display';
+    src: url(../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
 header{
     justify-content: center;
     display: flex;
@@ -31,6 +35,13 @@ header{
     margin-top: 17.25px;
     margin-bottom: 14.6px;
 }
+.nav-links1{
+    font-weight: bolder;
+    margin-top: 9.5px;
+    margin-bottom: 19.5px;
+
+}
+
 .nav-links{
     margin-top: 9.5px;
     margin-bottom: 19.5px;
@@ -141,4 +152,247 @@ color: #FFFFFF;
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+.container{
+    width: 1180px;
+}
+.h1{
+    width: 489px;
+    height: 264px;
+    
+    /* H1 --desktop */
+    
+    font-family: 'playfair display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 86px;
+    line-height: 88px;
+    /* or 102% */
+    
+    letter-spacing: -1px;
+    
+    /* Neutral[500] */
+    
+    color: #2F2E41;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.paragraph{
+    width: 489px;
+    height: 102px;
+    
+    /* Body large */
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    
+    
+    /* Neutral[300] */
+    
+    color: #9893A3;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+.btn3{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+    
+    width: 140px;
+    height: 51px;
+    
+    /* Primary[400] */
+    
+    background: #6C63FF;
+    /* Primary[400] */
+    
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 97px;
+    
+    width: 900px;
+    height: 35.42px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+
+}
+.lg1{
+    width: 106.01px;
+    height: 27.12px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.lg2{
+    width: 91.74px;
+    height: 35.42px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+.lg3{
+    width: 84.11px;
+    height: 32.11px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.lg4{
+    width: 99.27px;
+    height: 23.61px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+.lg5{
+    width: 108.05px;
+    height: 26.95px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+.h2{
+    width: 400px;
+    height: 128px;
+    
+    /* H2 --desktop */
+    
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    /* or 107% */
+    
+    letter-spacing: -1px;
+    
+    /* Neutral[500] */
+    
+    color: #2F2E41;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+       
+}
+.paragraph2{
+    width: 400px;
+    height: 102px;
+    
+    /* Body large */
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    /* or 170% */
+    
+    
+    /* Neutral[300] */
+    
+    color: #9893A3;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.paragraph3{
+    width: 92px;
+    height: 20px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+    
+    letter-spacing: -1px;
+    
+    /* Neutral[500] */
+    
+    color: #2F2E41;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mrginn{
+    margin-left: 10%;
 }
