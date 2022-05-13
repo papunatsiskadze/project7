@@ -1,7 +1,144 @@
 body{
     margin: 0;
-    width: 1440px;
+}
+@font-face {
+    font-family: 'open sans';
+    src: url(../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header{
+    justify-content: center;
+    display: flex;
 }
 .container1{
+    width: 1280px;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+}
+.ulrow{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.row{
     width: 100%;
+}
+.logo{
+    margin-top: 12.25px;
+    margin-bottom: 12.25px;
+}
+.logo2{
+    margin-top: 17.25px;
+    margin-bottom: 14.6px;
+}
+.nav-links{
+    margin-top: 9.5px;
+    margin-bottom: 19.5px;
+}
+.firstbtn{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+    
+    width: 102px;
+    height: 51px;
+    
+    /* Primary[400] */
+    
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.firstbtntext{
+    margin-top: 10px;
+    width: 42px;
+height: 19px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+/* Primary[400] */
+
+color: #6C63FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.secondbtn{
+    margin-left: 16px;
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    gap: 10px;
+    
+    width: 140px;
+    height: 51px;
+    
+    /* Primary[400] */
+    
+    background: #6C63FF;
+    /* Primary[400] */
+    
+    border: 1px solid #6C63FF;
+    border-radius: 2px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.secondbtntext{
+    margin-top: 10px;
+       width: 80px;
+height: 19px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+/* Neutral[100] */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
